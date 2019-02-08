@@ -1,3 +1,5 @@
+// Dependencies
+
 var express = require("express");
 var method = require("method-override");
 var body = require("body-parser");
@@ -159,4 +161,4 @@ app.get("/note/:id", function(req, res) {
 	Article.findById(id).populate("note").exec(function(err, data) {
 		res.send(data.note);
 	})
-});
+})
