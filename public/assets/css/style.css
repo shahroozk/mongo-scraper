@@ -26,7 +26,7 @@ header {
 	top: 0;
 	display: block;
 	width: 100%;
-	height: 70px;
+	height: 85px;
 	box-shadow: 0 0 10px #aaa;
 	background-color:black;
 	opacity: 0.9;
@@ -43,14 +43,28 @@ header button {
 
 #all-articles {
 	background-color: #999;
+	border-radius: 50%;
+	margin-right: 7px;
+	margin-top: 12px;
+    margin-bottom: 5px;
+    height: 60px;
 }
 
 #saved-articles {
 	background-color: #aaa;
+	border-radius: 50%;
+	margin-right: 7px;
+	margin-top: 12px;
+    margin-bottom: 5px;
+    height: 60px;
 }
 
 #refresh-articles {
 	background-color: #bbb;
+	border-radius: 50%;
+	margin-top: 12px;
+    margin-bottom: 5px;
+    height: 60px;
 }
 
 #all-articles:hover, #saved-articles:hover, #refresh-articles:hover {
@@ -64,26 +78,33 @@ header button {
 	font-size: 15px;
 	min-width: 200px;
 	border-radius: 5px;
-	margin-top: 10px;
+	margin-top: 20px;
+	margin-right: 5px;
 }
 
 #search-submit {
 	float: right;
 	height: 80%;
-	margin-top: 10px;
+	border-radius: 50%;
+	margin-top: 15px;
+    margin-bottom: 5px;
+    height: 60px;
 	height: 63%;
 	margin-right: 10px;
+	color: black;
+	font-weight: bold;
 }
 
 #sitename {
 	float: left;
 	padding: 15px 11px;
 	height: 100%;
-	background-color: #92afcc;
+	background-color: #5d9bd8;
 	font-size: 23px;
 	font-weight: bold;
 	color: #fff;
 	opacity: 0.7;
+	margin-right: 7px;
 }
 
 #cover {
@@ -96,10 +117,11 @@ header button {
 	min-height: 200px;
 	box-shadow: 0 0 10px #aaa;
 	background-color: #fff;
+	border-radius: 12px; 
 }
 
 .story-body h2 {
-	background-color: #3e9cfc;
+	background-color: #000000;
 }
 
 .story-body a {
